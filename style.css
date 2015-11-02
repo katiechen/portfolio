@@ -196,6 +196,13 @@ a:hover {
 	line-height: 250%;
 }
 
+.description-exchange .container #exchangeideas {
+	display: block;
+	width: 600px;
+	margin: auto;
+	margin-top: 30px;
+}
+
 .description-exchange .container #exchange1 {
 	display: block;
 	width: 600px;
@@ -230,6 +237,7 @@ a:hover {
 	width: 90%;
 	margin: auto;
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .description-exchange .container .caption {
@@ -251,6 +259,12 @@ a:hover {
 .description-exchange .container #exchangegif1 {
 	display: block;
 	margin: auto;
+}
+
+.description-exchange .container iframe {
+	display: block;
+	margin: auto;
+	margin-bottom: 30px;
 }
 
 /*-------------------------------------*/
