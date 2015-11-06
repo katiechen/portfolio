@@ -22,24 +22,28 @@ $(document).ready(function() {
         }
     );
 
-    $('#exchangethumb').hover(function() {
+    $('#exchange').hover(function() {
         $('.one').stop(true, true).fadeToggle(500);
     });
 
-    $('#slthumb').hover(function() {
+    $('#slmethod').hover(function() {
         $('.two').stop(true, true).fadeToggle(500);
     });
 
-    $('#myflowthumb').hover(function() {
+    $('#myflow').hover(function() {
         $('.three').stop(true, true).fadeToggle(500);
     });
 
-    $('#enabledthumb').hover(function() {
+    $('#enabled').hover(function() {
         $('.four').stop(true, true).fadeToggle(500);
     });
 
-    $('#sketchthumb').hover(function() {
+    $('#sketch').hover(function() {
         $('.five').stop(true, true).fadeToggle(500);
+    });
+
+    $('#caltaiko').hover(function() {
+        $('.six').stop(true, true).fadeToggle(500);
     });
 
 });

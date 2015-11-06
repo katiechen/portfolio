@@ -79,39 +79,9 @@ a:hover {
 	margin-bottom: -42px;
 }
 
-#exchangethumb {
+.thumb {
 	display: block;
 	width: 80%;
-	margin: auto;
-	margin-bottom: 20px;
-}
-
-#slthumb {
-	display: block;
-	width: 80%;
-	margin: auto;
-	margin-bottom: 20px;
-}
-
-#myflowthumb {
-	display: block;
-	width: 80%;
-	margin: auto;
-	margin-bottom: 20px;
-}
-
-#enabledthumb {
-	display: block;
-	position: relative;
-	width: 53%;
-	margin: auto;
-	margin-bottom: 20px;
-}
-
-#sketchthumb {
-	display: block;
-	position: relative;
-	width: 53%;
 	margin: auto;
 	margin-bottom: 20px;
 }
@@ -265,6 +235,7 @@ a:hover {
 	display: block;
 	margin: auto;
 	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 /*-------------------------------------*/
@@ -502,6 +473,7 @@ a:hover {
 	width: 80%;
 	margin: auto;
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 /*-------------------------------------*/
@@ -584,6 +556,82 @@ a:hover {
 
 /*-------------------------------------*/
 
+
+/*-------------------------------------*/
+
+#caltaiko0 {
+	display: block;
+	width: 70%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.description-caltaiko .container {
+	margin-top: 30px;
+}
+
+.description-caltaiko .container h2 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+	text-align: right;
+	letter-spacing: 0.05em;
+}
+
+.description-caltaiko .container p {
+	font-family: "Open Sans" sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	margin-left: 50px;
+	margin-top: 23px;
+	line-height: 170%;
+}
+
+.description-caltaiko .container br {
+	line-height: 250%;
+}
+
+.description-caltaiko .container #caltaiko1 {
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.description-caltaiko .container #caltaiko2 {
+	display: block;
+	width: 40%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.description-caltaiko .container .sample {
+	display: block;
+	width: 70%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.description-caltaiko .container #last {
+	margin-bottom: 30px;
+}
+
+.description-caltaiko .container #images {
+	text-align: center;
+}
+
+.description-caltaiko .container .caption {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	font-style: italic;
+}
+
+.description-caltaiko .container #filler {
+	height: 50px;
+}
+
+/*-------------------------------------*/
+
 .sketches .container img {
 	display: block;
 	margin: auto;
@@ -621,6 +669,8 @@ a:hover {
 }
 
 /*-------------------------------------*/
+
+
 
 .profile .container {
 	margin-top: 50px;
