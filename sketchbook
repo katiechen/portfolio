@@ -20,8 +20,8 @@
 	<div class="nav-bar">
 		<div class="container">
 			<ul class="pull-left">
-				<li id="name"><a href="index">KATIE CHEN</a></li>
-				<li><a href="index" class="current">WORKS</a></li>
+				<li id="name"><a href="index.html">KATIE CHEN</a></li>
+				<li><a href="index.html" class="current">WORKS</a></li>
 				<li><a href="about">ABOUT</a></li>
 			</ul>
 		</div>
