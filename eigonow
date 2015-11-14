@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Katie Chen - Eigo Now Onboarding Page</title>
+	<meta name="author" content="Katie Chen">
+	<meta charset="UTF-8">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+	<link href='style.css' rel='stylesheet'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="script.js"></script>
+	<link rel="icon" type="image/png" href="http://i411.photobucket.com/albums/pp194/katieschen/Portfolio/favicon_zpsc35jkuwe.png">
+</head>
+
+<body>
+
+	<!-- Navigation Bar -->
+	<div class="nav-bar">
+		<div class="container">
+			<ul class="pull-left">
+				<li id="name"><a href="index">KATIE CHEN</a></li>
+				<li><a href="index" class="current">WORKS</a></li>
+				<li><a href="about">ABOUT</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<a id="fixedleft" href="exchange"><h1 id="arrow"><</h1></a>
+	<a id="fixedright" href="myflow"><h1 id="arrow">></h1></a>
+
+	<div class="header-pic">
+		<div class="container">
+			<div class="col-md-12">
+				<img id="sl0" src="http://i411.photobucket.com/albums/pp194/katieschen/Portfolio/eigonowcover_zps91uejaab.png">
+				</div>
+			<h1>Eigo Now Onboarding Page</h1>
+			<h2>User testing to improve Eigo Now's Onboarding Page.<br>
+				<i>UX, Web</i>
+			</h2>
+			<p>Note: Names changed and visuals hidden in protection of a non-disclosure agreement.</p>
+		</div>
+	</div>
+
+	<div class="description-slmethod">
+		<div class="container">
+
+			<div class="col-md-4">
+				<h2>Project Intro</h2>
+			</div>
+			<div class="col-md-6">
+				<p>Eigo Now is a well-known English teaching service throughout Japan. They are currently seeking to transition their content and services to web and mobile apps.<br>
+				The Onboarding Page contains detailed steps on what aspects of learning they should concentrate on and when, as well as how to use the available Eigo Now products most effectively.<br>
+				I was involved in conducting user research and worked with the design team to tailor the Onboarding Page to effectively present material that is most digestible by the user, while maintaining Eigo Now’s mission and goal. 
+				</p> 
+			</div>
+
+			<div class="col-md-4">
+				<h2>The Problem</h2>
+			</div>
+			<div class="col-md-6">
+				<p>Initial testing of the first iterations, formulated by Eigo Now and mocked up by our team's designer, revealed that the way the method was presented confused users. More specifically, they could not understand the relationship between the “stages”, unsure of how (and when) to move from one stage to another.<br>
+				The proposed solution was introducing time frames for each step of studying.<br> 
+				We then took this secondary iteration to user test.<br>
+				</p>
+			</div>
+
+			<div class="col-md-4">
+				<h2>User Research</h2>
+			</div>
+			<div class="col-md-6">
+				<p>Our target users were current users of the Eigo Now service and non-users currently learning English.
+				</p>
+			</div>
+
+			<div class="col-md-4">
+				<h2>Initial Ideation</h2>
+			</div>
+			<div class="col-md-6">
+				<p>Before bringing the new mockup to the user, I, along with our product manager, drafted focus points, based off of previous user tests, to keep in mind while testing. 
+				</p>
+			</div>
+			
+			<div class="col-md-4">
+				<h2>Observations through Iteration</h2>
+			</div>
+			<div class="col-md-6">
+				<p>Our testing results showed that users liked the clear guidance by the time frames. On the other hand, non-beginner learners were confused about where they should start, which led us to realize that this presentation excluded part of the target user group.
+				</p>
+			</div>
+
+			<div class="col-md-4">
+				<h2>Secondary Ideation</h2>
+			</div>
+			<div class="col-md-6">
+				<p>We brainstormed design changes that would give non-beginners a better way to assess their level and where to begin studying.<br>
+				We came up with a simple question presentation: “What?”, “Why?”, “Who?”, “When?”, and “How?” to give all users clear explanations of the goals of each learning step.<br> 
+				</p>
+			</div>
+
+			<div class="col-md-4">
+				<h2>Conclusion and Thoughts for the Future</h2>
+			</div>
+			<div class="col-md-6">
+				<p>There’s a lot of potential in the Onboarding Page to really be beneficial to the community of existing Eigo Now users, especially beginning English learners. To really build upon the goals of the Onboarding Page, understanding what users want from a set of guidelines for self-study is necessary. <br>
+				Finding a balance and common points between the needs of all levels of English learners is also crucial.
+				</p>
+			</div>
+
+			<div class="col-md-12">
+				<div id="filler">
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+</body>

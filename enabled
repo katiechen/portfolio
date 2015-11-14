@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Katie Chen - enabLED</title>
+	<meta name="author" content="Katie Chen">
+	<meta charset="UTF-8">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+	<link href='style.css' rel='stylesheet'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="script.js"></script>
+	<link rel="icon" type="image/png" href="http://i411.photobucket.com/albums/pp194/katieschen/Portfolio/favicon_zpsc35jkuwe.png">
+</head>
+
+<body>
+
+	<!-- Navigation Bar -->
+	<div class="nav-bar">
+		<div class="container">
+			<ul class="pull-left">
+				<li id="name"><a href="index">KATIE CHEN</a></li>
+				<li><a href="index" class="current">WORKS</a></li>
+				<li><a href="about">ABOUT</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<a id="fixedleft" href="caltaiko"><h1 id="arrow"><</h1></a>
+	<a id="fixedright" href="sketchbook"><h1 id="arrow">></h1></a>
+
+	<div class="header-pic">
+		<div class="container">
+			<div class="col-md-12">
+				<img id="enabled0" src="http://i411.photobucket.com/albums/pp194/katieschen/Portfolio/enabledcover_zpsgkyockls.jpg">
+				</div>
+			<h1>enabLED</h1>
+			<h2>Crutch enhancement suite to improve the experience of using crutches.<br>
+				<i>UX, Product</i>
+			</h2>
+			<p>See the full documentation <a href="https://www.hackster.io/4182/crutchdance-726eab">here</a>.
+		</div>
+	</div>
+
+	<div class="description-enabled">
+		<div class="container">
+
+			<div class="col-md-4">
+				<h2>Project Intro</h2>
+			</div>
+			<div class="col-md-6">
+				<p>enabLED is a crutch enhancement suite that uses an accelerometer, a force sensitive resistor, LEDs, and a GPS to visualize and map crutch usage. enabLED is our response to the difficulty and burden of using crutches.<br>
+				enabLED was originally created by Paige Xio Alvarez, Lee Hamstra, Brian Le, and myself for Eric Paulos' UC Berkeley course, <a href="http://make.berkeley.edu/">Critical Making</a>.<br>
+				</p>
+			</div>
+
+			<div class="col-md-4">
+				<h2>The Problem</h2>
+			</div>
+			<div class="col-md-6">
+				<p>After exploring the aspects of human-powered transportation, both its wonders as well as its faults, we decided to focus on mobility aids, specifically crutches. We know that the road to recovery is often arduous and frustrating, so we sought to make the process more fun and empowering. 
+				</p>
+			</div>
+
+			<div class="col-md-12">
+				<img id="enabled1" src="https://hackster.imgix.net/uploads/image/file/37268/IMG_0081.JPG.jpeg?w=580&h=435&fit=max&fm=jpg&s=be8a44bfb5b4917890deab37f7877102">
+				<h4 class="caption">Brainstorming with crutches in mind.</h>
+			</div>
+
+			<div class="col-md-4">
+				<h2>User Research</h2>
+			</div>
+			<div class="col-md-6">
+				<p>We interviewed friends and peers who were using crutches due to injury. We shared with them our initial ideas for functions and listened to struggles of their crutch-using experience.<br>
+				Resounding opinions were frustration at the inability to find accessible routes and the feeling of being the minority as a crutch-user.
+				</p>
+			</div>
+
+			<div class="col-md-4">
+				<h2>Initial Ideation</h2>
+			</div>
+			<div class="col-md-6">
+				<p>With making crutch-using more enjoyable and convenient in mind, we decided to gamify the experience by creating a network of crutch-users to crowdsource data in order to map out crutch-friendly routes for other crutch-users. 
+				</p>
+			</div>
+			
+			<div class="col-md-4">
+				<h2>Conclusion and Thoughts for the Future</h2>
+			</div>
+			<div class="col-md-6">
+				<p>Feedback from our peers expressed praise for the idea of crowdsourcing data and desire to see the expansion upon this idea into, for example, a Yelp-esque community for crutch-users to leave reviews and comments on difficult (or easy) routes. <br>
+				Crowdsourcing really depends on a large and active community, thus research and better understanding of a more diverse mobility aid-using user group is needed. 
+				</p>
+			</div>
+
+			<div class="col-md-12" id="images">
+				<img id="enabled2" src="http://i411.photobucket.com/albums/pp194/katieschen/Portfolio/enabled2_zpszterrflx.jpg">
+
+				<img id="enabled3" src="http://i411.photobucket.com/albums/pp194/katieschen/Portfolio/enabled1_zpsgjgyy5pg.jpg">
+			</div>
+
+			<div class="col-md-12">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/hnIV79ZkF48" frameborder="0" allowfullscreen></iframe>
+			</div>
+
+			<div class="col-md-12">
+				<div id="filler">
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</body>
