@@ -1,4 +1,10 @@
-/*nav-bar start*/
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+/*------------------Nav Bar------------------*/
+
 .nav-bar .container a {
 	color: inherit;
 	text-decoration: none;
@@ -8,46 +14,96 @@ a:hover {
 	text-decoration: none;
 }
 
+.nav-bar .container {
+	position: fixed;
+	width: 100%;
+	height: 65px;
+	border-bottom: 1px solid #D6D6D6;
+	background-color: #FFFFFF;
+	z-index: 9999;
+}
+
 .nav-bar .container ul {
+	position: relative;
 	list-style-type: none;
-	margin-top: 20px;
+	text-align: center;
+	margin-top: 10px;
 }
 
 .nav-bar .container li {
 	display: inline;
-	margin: 0 20px 0 0;
-	color: #4F4F4F;
-	font-size: 20px;
-	font-family: "Abel", sans-serif;
-	letter-spacing: 0.05em;
+	margin: 0 40px 0 0;
+	font-size: 18px;
+	font-family: "Montserrat", sans-serif;
+	letter-spacing: 0.3em;
+}
+
+.nav-bar #index .container {
+	height: 300px;
+}
+
+.nav-bar #index .container ul {
+	margin-top: 100px;
 }
 
 #name {
-	font-size: 30px;
-	font-family: "Abel" sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	color: #06B879;
 }
 
-.nav-bar .container .current {
-	color: #A3A3A3;
+#name .index {
+	font-size: 40px;
 }
 
-/*.nav-bar .container {
-	background: url(http://imageshack.com/a/img910/833/gexXhY.png) no-repeat center;
-	width: 100%;
-	height: 90px;
-	z-index: 0;
-	background-size: 100%;
-	border-bottom: 1px solid #9B9B9B;
-}*/
-
-/*.decor {
-	display: block;
-	width: 100px;
-	margin: auto;
+.nav-bar .container h1 {
 	margin-top: 40px;
-}*/
+	font-size: 18px;
+	font-family: "Roboto Slab", serif;
+	letter-spacing: 0.1em;
+	text-align: center;
+	font-weight: 100;
+}
 
-/*nav-bar end*/
+/*-----------------Footer---------------------*/
+
+.footer .container a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.footer .container {
+	width: 100%;
+	height: 280px;
+	background-color: #06B879;
+}
+
+.footer .container p {
+	margin-top: 80px;
+	font-size: 18px;
+	font-family: "Roboto Slab", serif;
+	letter-spacing: 0.1em;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.footer .container ul {
+	list-style-type: none;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.footer .container li {
+	display: inline;
+	margin: 0 40px 0 0;
+	font-size: 18px;
+	font-family: "Montserrat", sans-serif;
+	letter-spacing: 0.3em;
+	color: #FFFFFF;
+}
+
+/*footer end*/
 
 #fixedright {
 	position: fixed;
@@ -67,79 +123,118 @@ a:hover {
 	color: #A3A3A3;
 }
 
+/*---------------Index CSS----------------*/
+
 .works-preview .container {
-	margin-top: 70px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.works-preview .container .col-md-7 {
+	margin: 0;
+	padding: 0;
+	height: 350px;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.works-preview .container .col-md-5 {
+	margin: 0;
+	padding: 0;
+	height: 350px;
+	overflow: hidden;
+}
+
+.works-preview .container .col-md-12 {
+	margin: -1px;
+	padding: 0;
 }
 
 .works-preview .container h2 {
 	display: none;
-	font-family: "Abel", sans-serif;
-	color: #4F4F4F;
-	font-size: 25px;
-	letter-spacing: 0.05em;
-	text-align: center;
-	margin-bottom: -15px;
+	position: absolute;
+	bottom: 40px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 38px;
+	color: #FFFFFF;
+	letter-spacing: 0.07em;
+	margin-left: 20px;
 }
 
 .works-preview .container h3 {
 	display: none;
-	font-family: "Open Sans", sans-serif;
-	color: #7C7C7C;
-	font-weight: 300;
-	font-size: 16px;
-	letter-spacing: 0.05em;
-	text-align: center;
-	margin-bottom: -49px;
+	position: absolute;
+	bottom: 8px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+	letter-spacing: 0.3em;
+	margin-left: 20px;
 }
 
-.thumb {
-	display: block;
-	width: 90%;
-	margin: auto;
-	margin-bottom: 20px;
+#exchangediv {
+	margin-top: 300px;
+	background-image: url("http://i411.photobucket.com/albums/pp194/katieschen/exchangebanner_zpszuwlmkyv.jpg");
 }
 
-.works-preview .container #under {
-	margin-bottom: 30px;
+#canvasdiv {
+	margin-top: 300px;
+	background-image: url("http://i411.photobucket.com/albums/pp194/katieschen/canvasthumb_zpszma3afei.png");
+	background-size: cover;
+	background-position: 50% 50%;
 }
 
-.works-preview .container #filler {
-	height: 100px;
+#caltaikodiv {
+	background-image: url("http://i411.photobucket.com/albums/pp194/katieschen/Portfolio/caltaiko1_zpsgol0hd0u.png");
+	background-size: cover;
+	background-position: 50% 50%;
 }
 
-.works-preview .container #filler2 {
-	height: 85px;
+#myflowdiv {
+	background-image: url("http://i411.photobucket.com/albums/pp194/katieschen/98c3492b-3b35-4400-942b-37d1af2b37cd_zpsimgzj7sw.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
 }
 
-/*-------------------------------------*/
-
-.header-pic .container {
-	margin-top: 40px;
+#enableddiv {
+	background-image: url("http://i411.photobucket.com/albums/pp194/katieschen/Portfolio/enabledcover_zpsgkyockls.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
 }
 
-.header-pic .container #exchange0 {
-	display: block;
-	width: 30%;
-	margin: auto;
-	margin-bottom: 30px;
+#sketchdiv {
+	background-image: url("http://i411.photobucket.com/albums/pp194/katieschen/Portfolio/peony_zpssqijoddm.png");
+	background-size: cover;
+	background-position: 50% 50%;
 }
+
+.overlay {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #06B879;
+	opacity: 0.7;
+
+}
+
+/*--------------All Headers---------------*/
 
 .header-pic .container h1 {
-	font-family: "Abel", sans-serif;
-	font-size: 36px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 40px;
 	text-align: center;
-	letter-spacing: 0.05em;
-	color: #4F4F4F;
 }
 
 .header-pic .container h2 {
-	font-family: "Open Sans", sans-serif;
-	font-weight: 300;
+	font-family: "Roboto Slab", sans-serif;
 	text-align: center;
 	letter-spacing: 0.05em;
 	font-size: 24px;
-	margin-top: -5px;
-	color: #4F4F4F;
+	font-weight: 300;
 }
 
 .header-pic .container br {
@@ -147,47 +242,110 @@ a:hover {
 }
 
 .header-pic .container p {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Roboto Slab", sans-serif;
 	font-weight: 300;
 	text-align: center;
-	font-size: 16px;
+	font-size: 18px;
 	letter-spacing: 0.05em;
 	margin-top: 20px;
-	color: #4F4F4F;
 }
 
 .caption {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Roboto Slab", serif;
 	font-size: 14px;
 	text-align: center;
 	font-style: italic;
 	margin-bottom: 30px;
-	color: #4F4F4F;
 	font-weight: 300;
 }
 
-/*-------------------------------------*/
+/*------Arrows-------*/
+
+.arrows {
+	margin: 0;
+	margin-bottom: 100px;
+}
+
+.arrows a {
+	color: inherit;
+}
+
+.arrows a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+	margin: 0;
+}
+
+.right p {
+	font-family: "Montserrat", sans-serif;
+	text-align: right;
+	margin-right: 20px;
+}
+
+.left p {
+	font-family: "Montserrat", sans-serif;
+	text-align: left;
+	margin-left: 20px;
+}
+
+#subtitle {
+	margin-top: -15px;
+	font-size: 16px;
+	letter-spacing: 0.3em;
+	margin-right: 15px;
+}
+
+#title {
+	font-size: 28px;
+	font-weight: 700;
+}
+
+#nav {
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 20px;
+	letter-spacing: 0.09em;
+	margin-bottom: 0px;
+	text-decoration: underline;
+}
+
+/*-------------Exchange--------------*/
+
+#exchange0 {
+	display: block;
+	width: 60%;
+	margin-top: 100px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .description-exchange .container {
 	margin-top: 30px;
 }
 
 .description-exchange .container h2 {
-	font-family: "Abel", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-size: 24px;
 	text-align: right;
-	letter-spacing: 0.05em;
-	color: #4F4F4F;
+	letter-spacing: 0.03em
 }
 
 .description-exchange .container p {
-	font-family: "Open Sans" sans-serif;
-	font-size: 16px;
-	font-weight: 300;
+	font-family: "Roboto Slab", serif;
+	font-size: 18px;
 	margin-left: 50px;
 	margin-top: 23px;
 	line-height: 170%;
-	color: #4F4F4F;
+	letter-spacing: 0.02em;
+	font-weight: 300;
 }
 
 .description-exchange .container br {
@@ -258,13 +416,15 @@ a:hover {
 	margin-top: 30px;
 }
 
-/*-------------------------------------*/
+/*------------Canvas---------------*/
 
 #sl0 {
 	display: block;
 	width: 60%;
-	margin: auto;
+	margin-top: 100px;
 	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .description-slmethod .container {
@@ -272,139 +432,106 @@ a:hover {
 }
 
 .description-slmethod .container h2 {
-	font-family: "Abel", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-size: 24px;
 	text-align: right;
-	letter-spacing: 0.05em;
-	color: #4F4F4F;
+	letter-spacing: 0.03em
 }
 
 .description-slmethod .container p {
-	font-family: "Open Sans" sans-serif;
-	font-weight: 300;
-	font-size: 16px;
+	font-family: "Roboto Slab", serif;
+	font-size: 18px;
 	margin-left: 50px;
 	margin-top: 23px;
 	line-height: 170%;
-	color: #4F4F4F;
+	letter-spacing: 0.02em;
+	font-weight: 300;
 }
 
 .description-slmethod .container br {
 	line-height: 250%;
 }
 
-.description-slmethod .container #sl1 {
-	display: inline-block;
-	width: 400px;
-	margin: auto;
-	margin-top: 30px;
-}
-
-.description-slmethod .container #sl2 {
-	display: inline-block;
-	width: 400px;
-	margin: auto;
-	margin-top: 30px;
-}
-
-.description-slmethod .container #sl3 {
-	display: inline-block;
-	width: 400px;
-	margin: auto;
-	margin-top: 30px;
-}
-
-.description-slmethod .container #sl4 {
-	display: inline-block;
-	width: 400px;
-	margin: auto;
-	margin-top: 30px;
-}
-
-.description-slmethod .container #sl5 {
-	display: inline-block;
-	width: 400px;
-	margin: auto;
-	margin-top: 30px;
-}
-
-.description-slmethod .container #sl6 {
-	display: inline-block;
-	width: 400px;
-	margin: auto;
-	margin-top: 30px;
-}
-
-.description-slmethod .container #sl7 {
-	display: inline-block;
-	width: 400px;
-	margin: auto;
-	margin-top: 30px;
-}
-
-.description-slmethod .container #sl8 {
-	display: inline-block;
-	width: 400px;
-	margin: auto;
-	margin-top: 30px;
-}
-
-.description-slmethod .container #sl9 {
-	display: inline-block;
-	width: 400px;
-	margin: auto;
-	margin-top: 30px;
-}
-
-.description-slmethod .container #sl10 {
-	display: inline-block;
-	width: 400px;
-	margin: auto;
-	margin-top: 30px;
-}
-
-.description-slmethod .container #slusertest1 {
-	display: inline-block;
-	width: 400px;
-	margin: auto;
-	margin-top: 30px;
-	margin-right: 10px;
-}
-
-.description-slmethod .container #slusertest2 {
-	display: inline-block;
-	width: 400px;
-	margin: auto;
-	margin-top: 30px;
-}
-
-.description-slmethod .container #images {
+.description-slmethod .col-md-12 {
 	text-align: center;
 }
 
-.description-slmethod .container #images2 {
-	text-align: center;
+.description-slmethod .container #canvas1 {
+	display: inline-block;
+	width: 32%;
+	margin: auto;
+	margin-top: 30px;
 }
 
-.description-slmethod .container #images3 {
-	text-align: center;
+.description-slmethod .container #canvas2 {
+	display: inline-block;
+	width: 30%;
+	margin: auto;
+	margin-top: 30px;
 }
 
-.description-slmethod .container #images4 {
-	text-align: center;
+.description-slmethod .container #canvas3 {
+	display: inline-block;
+	width: 32%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.description-slmethod .container #canvas4 {
+	display: block;
+	width: 400px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.description-slmethod .container #canvas5 {
+	display: inline-block;
+	width: 30%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.description-slmethod .container #canvas6 {
+	display: inline-block;
+	width: 30%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.description-slmethod .container #canvas7 {
+	display: inline-block;
+	width: 30%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.description-slmethod .container #canvas8 {
+	display: inline-block;
+	width: 30%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.description-slmethod .container #canvas9 {
+	display: block;
+	width: 60%;
+	margin: auto;
+	margin-top: 30px;
 }
 
 .description-slmethod .container #filler {
 	height: 50px;
 }
 
-/*-------------------------------------*/
+/*---------------my.Flow-----------------*/
 
 #myflow0 {
 	display: block;
-	width: 25%;
-	margin: auto;
+	width: 60%;
+	margin-top: 100px;
 	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .description-myflow .container {
@@ -412,21 +539,20 @@ a:hover {
 }
 
 .description-myflow .container h2 {
-	font-family: "Abel", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-size: 24px;
 	text-align: right;
-	letter-spacing: 0.05em;
-	color: #4F4F4F;
+	letter-spacing: 0.03em
 }
 
 .description-myflow .container p {
-	font-family: "Open Sans" sans-serif;
-	font-weight: 300;
-	font-size: 16px;
+	font-family: "Roboto Slab", serif;
+	font-size: 18px;
 	margin-left: 50px;
 	margin-top: 23px;
 	line-height: 170%;
-	color: #4F4F4F;
+	letter-spacing: 0.02em;
+	font-weight: 300;
 }
 
 .description-myflow .container br {
@@ -484,13 +610,15 @@ a:hover {
 	margin-bottom: 30px;
 }
 
-/*-------------------------------------*/
+/*--------------enabLED----------------*/
 
 #enabled0 {
 	display: block;
 	width: 60%;
-	margin: auto;
+	margin-top: 100px;
 	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .description-enabled .container {
@@ -498,21 +626,20 @@ a:hover {
 }
 
 .description-enabled .container h2 {
-	font-family: "Abel", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-size: 24px;
 	text-align: right;
-	letter-spacing: 0.05em;
-	color: #4F4F4F;
+	letter-spacing: 0.03em
 }
 
 .description-enabled .container p {
-	font-family: "Open Sans" sans-serif;
-	font-weight: 300;
-	font-size: 16px;
+	font-family: "Roboto Slab", serif;
+	font-size: 18px;
 	margin-left: 50px;
 	margin-top: 23px;
 	line-height: 170%;
-	color: #4F4F4F;
+	letter-spacing: 0.02em;
+	font-weight: 300;
 }
 
 .description-enabled .container br {
@@ -556,13 +683,15 @@ a:hover {
 	height: 50px;
 }
 
-/*-------------------------------------*/
+/*--------------Cal Taiko-----------------*/
 
 #caltaiko0 {
 	display: block;
 	width: 70%;
-	margin: auto;
+	margin-top: 100px;
 	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .description-caltaiko .container {
@@ -570,21 +699,20 @@ a:hover {
 }
 
 .description-caltaiko .container h2 {
-	font-family: "Abel", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-size: 24px;
 	text-align: right;
-	letter-spacing: 0.05em;
-	color: #4F4F4F;
+	letter-spacing: 0.03em
 }
 
 .description-caltaiko .container p {
-	font-family: "Open Sans" sans-serif;
-	font-weight: 300;
-	font-size: 16px;
+	font-family: "Roboto Slab", serif;
+	font-size: 18px;
 	margin-left: 50px;
 	margin-top: 23px;
 	line-height: 170%;
-	color: #4F4F4F;
+	letter-spacing: 0.02em;
+	font-weight: 300;
 }
 
 .description-caltaiko .container br {
@@ -623,13 +751,19 @@ a:hover {
 	height: 50px;
 }
 
-/*-------------------------------------*/
+/*--------------Sketchbook---------------*/
+
+#sketchtitle {
+	margin-top: 100px;
+}
 
 .sketches .container img {
 	display: block;
 	margin: auto;
-	margin-top: 30px;
-	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .sketches .container #peony {
@@ -642,39 +776,43 @@ a:hover {
 
 .sketches .container #evilgood {
 	width: 60%;
+	margin-bottom: 0px;
 }
 
 .sketches .container #happiness {
 	width: 60%;
+	margin-bottom: 0px;
 }
 
 .sketches .container .images {
 	text-align: center;
 }
 
-/*-------------------------------------*/
+/*---------------About----------------*/
 
 
 .profile .container {
-	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .profile img {
+	margin-top: 100px;
 	width: 550px;
 }
 
 .profile #description h1 {
+	margin-top: 140px;
 	margin-left: 30px;
-	font-family: "Abel", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-weight: 700;
-	color: #4F4F4F;
 	letter-spacing: 0.02em;
+	font-size: 36px;
 }
 
 .profile #description p {
 	margin-top: 20px;
 	margin-left: 30px;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Roboto Slab", serif;
 	font-weight: 300;
 	font-size: 16px;
 	color: #4F4F4F;

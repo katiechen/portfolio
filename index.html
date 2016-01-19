@@ -1,90 +1,107 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<title>Katie Chen</title>
-	<meta name="author" content="Katie Chen">
-	<meta charset="UTF-8">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-	<link href='style.css' rel='stylesheet'>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="works_script.js"></script>
-	<link rel="icon" type="image/png" href="http://i411.photobucket.com/albums/pp194/katieschen/Portfolio/favicon_zpsc35jkuwe.png">
+  <title>Katie Chen</title>
+  <meta name="author" content="Katie Chen">
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100' rel='stylesheet' type='text/css'>
+  <link href='style2.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="index_script.js"></script>
+  <script src="/path/to/masonry.pkgd.js"></script>
+  <link rel="icon" type="image/png" href="http://i411.photobucket.com/albums/pp194/katieschen/Portfolio/favicon_zpsc35jkuwe.png">
 </head>
 
 <body>
 
-	<!-- Navigation Bar -->
-	<div class="nav-bar">
-		<div class="container">
-			<ul class="pull-left">
-				<li id="name"><a href="index.html">KATIE CHEN</a></li>
-				<li><a href="index.html" class="current">WORKS</a></li>
-				<li><a href="about.html">ABOUT</a></li>
-			</ul>
-		</div>
-	</div>
+  <!-- Navigation Bar -->
+  <div class="nav-bar" id="index">
+    <div class="container">
+      <div class="col-md-12">
+        <ul id="header-items">
+          <li><a href="#.html">WORKS</a></li>
+          <li id="name"><a href="#">Katie S. Chen</a></li>
+          <li><a href="about.html" class="current">ABOUT</a></li>
+        </ul>
+        <h1>- Visual Design, UX, Travel, Music, Wiener Dogs -</h1>
+      </div>
+    </div>
+  </div>
 
-	<div class="works-preview">
-		<div class="container">
-			<div class="col-md-4">
-				<a href="exchange.html">
-					<img class="thumb" id="exchange" src="http://i411.photobucket.com/albums/pp194/katieschen/Portfolio/exchangethumb_zpsnkz0insb.png">
-				</a>
-				<h2 class="one">Exchange</h2>
-				<h3 class="one">UI, UX, Mobile App, Product</h3>
-			</div>
+  <div class="works-preview">
+    <div class="container">
 
-			<div class="col-md-4">
-				<a href="eigonow.html">
-					<img class="thumb" id="slmethod" src="http://i411.photobucket.com/albums/pp194/katieschen/Portfolio/eigonowthumb_zpsnj6hogcs.png">
-				</a>
-				<h2 class="two">Eigo Now Onboarding Page</h2>
-				<h3 class="two">UX, Web</h3>
-			</div>
+      <a href="exchange.html">
+        <div id="exchangediv" class="col-md-7">
+          <div id="exoverlay" class="overlay"></div>
+          <h2 class="ex">Exchange</h2>
+          <h3 class="ex">UI, UX, MOBILE, PRODUCT</h3>
+        </div>
+      </a>
 
-			<div class="col-md-4">
-				<a href="myflow.html">
-					<img class="thumb" id="myflow" src="http://i411.photobucket.com/albums/pp194/katieschen/Portfolio/myflowthumb_zpsdl9tnmal.png">
-				</a>
-				<h2 class="three">my.Flow</h2>
-				<h3 class="three">UI, UX, Mobile App, Product</h3>
-			</div>
+      <a href="eigonow.html">
+        <div id="canvasdiv" class="col-md-5">
+          <div id="cnoverlay" class="overlay"></div>
+          <h2 class="cn">Canvas</h2>
+          <h3 class="cn">UX, WEB</h3>
+        </div>
+      </a>
 
-			<div class="col-md-12" id="filler">
-			</div>
+      <div class="col-md-12">
+      </div>
 
-			<div class="col-md-4">
-				<a href="caltaiko.html">
-					<img class="thumb" id="caltaiko" src="http://i411.photobucket.com/albums/pp194/katieschen/Portfolio/caltaikothumb_zpsmslflq2x.png">
-				</a>
-				<h2 class="six">Cal Taiko Website Redesign</h2>
-				<h3 class="six" id="under">UI, Web</h3>
-			</div>
+      <a href="caltaiko.html">
+        <div id="caltaikodiv" class="col-md-5">
+          <div id="ctoverlay" class="overlay"></div>
+          <h2 class="ct">Cal Taiko<br>Website Redesign</h2>
+          <h3 class="ct">UI, WEB</h3>
+        </div>
+      </a>
 
-			<div class="col-md-4">
-				<a href="enabled.html">
-					<img class="thumb" id="enabled" src="http://i411.photobucket.com/albums/pp194/katieschen/Portfolio/enabledthumb_zpsyv1e2fno.png">
-				</a>
-				<h2 class="four">enabLED</h2>
-				<h3 class="four" id="under">UX, Product</h3>
-			</div>
+      <a href="myflow.html">
+        <div id="myflowdiv" class="col-md-7">
+          <div id="mfoverlay" class="overlay"></div>
+          <h2 class="mf">my.Flow</h2>
+          <h3 class="mf">UI, UX, MOBILE, PRODUCT</h3>
+        </div>
+      </a>
 
-			<div class="col-md-4">
-				<a href="sketchbook.html">
-					<img class="thumb" id="sketch" src="http://i411.photobucket.com/albums/pp194/katieschen/Portfolio/sketchthumb_zpsotmz9gzj.png">
-				</a>
-				<h2 class="five">Sketchbook</h2>
-				<h3 class="five" id="under">Illustration</h3>
-			</div>
+      <a href="enabled.html">
+        <div id="enableddiv" class="col-md-7">
+          <div id="eboverlay" class="overlay"></div>
+          <h2 class="eb">enabLED</h2>
+          <h3 class="eb">UX, PRODUCT</h3>
+        </div>
+      </a>
 
-			<div class="col-md-12" id="filler2">
-			</div>
+      <a href="sketchbook.html">
+        <div id="sketchdiv" class="col-md-5">
+          <div id="sboverlay" class="overlay"></div>
+          <h2 class="sb">Sketchbook</h2>
+          <h3 class="sb">ILLUSTRATION</h3>
+        </div>
+      </a>
 
-		</div>
-	</div>
-
+    </div>
+  </div>
 
 </body>
+
+<footer>
+  <div class="footer">
+    <div class="container">
+      <div class="col-md-12">
+        <p>- Let's talk design! (or wiener dogs, if that's your thing.) -</p>
+        <ul id="footer-links">
+          <li><a href ="mailto:katiesychen@gmail.com">EMAIL</a></li>
+          <li><a href ="https://www.dropbox.com/s/31gare399q36ilk/%5BKatie%20Chen%5D%20Resume.pdf?dl=0">RESUME</a></li>
+          <li><a href="https://linkedin.com/in/katieschen">LINKEDIN</a></li>
+          <li><a href="https://www.behance.net/katiechen">BEHANCE</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -15,10 +15,10 @@ $(document).ready(function() {
 
     $('a').hover(
         function() {
-            $(this).fadeTo(300, 0.4)
+            $(this).fadeTo(200, 0.7)
         },
         function() {
-            $(this).fadeTo(300, 1.0)
+            $(this).fadeTo(200, 1.0)
         }
     );
 
