@@ -19,8 +19,16 @@ $(document).ready(function() {
 
     $(function() {
         var controller = new ScrollMagic.Controller();
+        var mq = window.matchMedia("(max-width: 750px)");
 
-        var containerTween = new TweenMax.to(".nav-bar .container", 1.5, {height: '65px'});
+        if (mq.matches) {
+            var containerTween = new TweenMax.to(".nav-bar .container", 1.5, {height: '45px'});
+        }
+
+        else {
+            var containerTween = new TweenMax.to(".nav-bar .container", 1.5, {height: '65px'});
+        }
+
         var containerScene = new ScrollMagic.Scene({offset: 30, duration: 300})
         .setTween(containerTween)
         .addTo(controller);
