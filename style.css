@@ -610,6 +610,18 @@ a:hover {
 	margin-top: 30px;
 }
 
+.description-myflow .container #peep {
+	display: inline-block;
+	width: 40%;
+	margin-top: 30px;
+}
+
+.description-myflow .container #myflow6 {
+	display: inline-block;
+	width: 40%;
+	margin-top: 30px;
+}
+
 .description-myflow .container #images {
 	text-align: center;
 }
