@@ -37,7 +37,7 @@ a:hover {
 .nav-bar .container li {
 	display: inline;
 	margin: 0 40px 0 0;
-	font-size: 18px;
+	font-size: 14px;
 	font-family: "Montserrat", sans-serif;
 	letter-spacing: 0.3em;
 }
@@ -55,6 +55,7 @@ a:hover {
 	font-weight: 700;
 	letter-spacing: 0.02em;
 	color: #06B879;
+	font-family: "Roboto Slab", serif;
 }
 
 #name .index {
@@ -68,6 +69,12 @@ a:hover {
 	letter-spacing: 0.1em;
 	text-align: center;
 	font-weight: 100;
+}
+
+#logo {
+	display: block;
+	margin: auto;
+	width: 10px;
 }
 
 /*-----------------Footer---------------------*/
@@ -87,7 +94,7 @@ a:hover {
 
 .footer .container p {
 	margin-top: 80px;
-	font-size: 18px;
+	font-size: 14px;
 	font-family: "Roboto Slab", serif;
 	letter-spacing: 0.1em;
 	text-align: center;
@@ -103,7 +110,7 @@ a:hover {
 .footer .container li {
 	display: inline;
 	margin: 0 40px 0 0;
-	font-size: 18px;
+	font-size: 14px;
 	font-family: "Montserrat", sans-serif;
 	letter-spacing: 0.3em;
 	color: #FFFFFF;
@@ -121,12 +128,6 @@ a:hover {
 	position: fixed;
 	left: 30px;
 	bottom: 50%;
-}
-
-#arrow {
-	font-family: "Abel", sans-serif;
-	font-size: 26px;
-	color: #A3A3A3;
 }
 
 /*---------------Index CSS----------------*/
@@ -235,7 +236,7 @@ a:hover {
 .header-pic .container h1 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 700;
-	font-size: 40px;
+	font-size: 30px;
 	text-align: center;
 }
 
@@ -243,7 +244,7 @@ a:hover {
 	font-family: "Roboto Slab", sans-serif;
 	text-align: center;
 	letter-spacing: 0.05em;
-	font-size: 24px;
+	font-size: 18px;
 	font-weight: 300;
 }
 
@@ -255,25 +256,31 @@ a:hover {
 	font-family: "Roboto Slab", sans-serif;
 	font-weight: 300;
 	text-align: center;
-	font-size: 18px;
+	font-size: 14px;
 	letter-spacing: 0.05em;
 	margin-top: 20px;
 }
 
 .caption {
 	font-family: "Roboto Slab", serif;
-	font-size: 14px;
+	font-size: 12px;
 	text-align: center;
 	font-style: italic;
 	margin-bottom: 30px;
 	font-weight: 300;
 }
 
+.filler {
+	display: block;
+	height: 1000px;
+	width: 100%;
+}
+
 /*------Arrows-------*/
 
 .arrows {
 	margin: 0;
-	margin-bottom: 100px;
+	margin-bottom: 70px;
 }
 
 .arrows a {
@@ -297,30 +304,31 @@ a:hover {
 .right p {
 	font-family: "Montserrat", sans-serif;
 	text-align: right;
-	margin-right: 20px;
+	margin-right: 16px;
 }
 
 .left p {
 	font-family: "Montserrat", sans-serif;
 	text-align: left;
-	margin-left: 20px;
+	margin-left: 16px;
 }
 
 #subtitle {
+	display: none;
 	margin-top: -15px;
-	font-size: 16px;
+	font-size: 12px;
 	letter-spacing: 0.3em;
 	margin-right: 15px;
 }
 
 #title {
-	font-size: 28px;
+	font-size: 24px;
 	font-weight: 700;
 }
 
 #nav {
 	font-family: "Roboto Slab", sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	letter-spacing: 0.09em;
 	margin-bottom: 0px;
 	text-decoration: underline;
@@ -330,7 +338,7 @@ a:hover {
 
 #exchange0 {
 	display: block;
-	width: 60%;
+	width: 70%;
 	margin-top: 100px;
 	margin-bottom: 30px;
 	margin-left: auto;
@@ -341,20 +349,27 @@ a:hover {
 	color: #06B879;
 }
 
+.description-exchange .container .col-md-9 {
+	float: none;
+	margin: auto;
+}
+
 .description-exchange .container {
 	margin-top: 30px;
+	float: none;
 }
 
 .description-exchange .container h2 {
 	font-family: "Montserrat", sans-serif;
-	font-size: 24px;
-	text-align: right;
-	letter-spacing: 0.03em
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	margin-bottom: 30px;
 }
 
 .description-exchange .container p {
 	font-family: "Roboto Slab", serif;
-	font-size: 18px;
+	font-size: 14px;
 	margin-left: 50px;
 	margin-top: 23px;
 	line-height: 170%;
@@ -406,8 +421,21 @@ a:hover {
 	display: block;
 	width: 90%;
 	margin: auto;
-	margin-top: 30px;
 	margin-bottom: 30px;
+}
+
+.description-exchange .container #exchange6 {
+	display: block;
+	width: 80%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.description-exchange .container #exchangev2 {
+	display: inline-block;
+	width: 30%;
+	margin: auto;
+	margin-top: 30px;
 }
 
 .description-exchange .container #images {
@@ -434,7 +462,7 @@ a:hover {
 
 #sl0 {
 	display: block;
-	width: 60%;
+	width: 70%;
 	margin-top: 100px;
 	margin-bottom: 30px;
 	margin-left: auto;
@@ -449,21 +477,28 @@ a:hover {
 	margin-top: 30px;
 }
 
+.description-slmethod .container .col-md-9 {
+	float: none;
+	margin: auto;
+}
+
 .description-slmethod .container h2 {
 	font-family: "Montserrat", sans-serif;
-	font-size: 24px;
-	text-align: right;
-	letter-spacing: 0.03em
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	margin-bottom: 30px;
 }
 
 .description-slmethod .container p {
 	font-family: "Roboto Slab", serif;
-	font-size: 18px;
+	font-size: 14px;
 	margin-left: 50px;
 	margin-top: 23px;
 	line-height: 170%;
 	letter-spacing: 0.02em;
 	font-weight: 300;
+	text-align: left;
 }
 
 .description-slmethod .container br {
@@ -479,6 +514,7 @@ a:hover {
 	width: 32%;
 	margin: auto;
 	margin-top: 30px;
+	border: 2px solid #E2E2E2;
 }
 
 .description-slmethod .container #canvas2 {
@@ -486,6 +522,7 @@ a:hover {
 	width: 30%;
 	margin: auto;
 	margin-top: 30px;
+	border: 2px solid #E2E2E2;
 }
 
 .description-slmethod .container #canvas3 {
@@ -493,6 +530,7 @@ a:hover {
 	width: 32%;
 	margin: auto;
 	margin-top: 30px;
+	border: 2px solid #E2E2E2;
 }
 
 .description-slmethod .container #canvas4 {
@@ -500,6 +538,7 @@ a:hover {
 	width: 400px;
 	margin: auto;
 	margin-top: 30px;
+	border: 2px solid #E2E2E2;
 }
 
 .description-slmethod .container #canvas5 {
@@ -507,6 +546,7 @@ a:hover {
 	width: 30%;
 	margin: auto;
 	margin-top: 30px;
+	border: 2px solid #E2E2E2;
 }
 
 .description-slmethod .container #canvas6 {
@@ -514,6 +554,7 @@ a:hover {
 	width: 30%;
 	margin: auto;
 	margin-top: 30px;
+	border: 2px solid #E2E2E2;
 }
 
 .description-slmethod .container #canvas7 {
@@ -521,6 +562,7 @@ a:hover {
 	width: 30%;
 	margin: auto;
 	margin-top: 30px;
+	border: 2px solid #E2E2E2;
 }
 
 .description-slmethod .container #canvas8 {
@@ -528,6 +570,7 @@ a:hover {
 	width: 30%;
 	margin: auto;
 	margin-top: 30px;
+	border: 2px solid #E2E2E2;
 }
 
 .description-slmethod .container #canvas9 {
@@ -535,6 +578,7 @@ a:hover {
 	width: 60%;
 	margin: auto;
 	margin-top: 30px;
+	border: 2px solid #E2E2E2;
 }
 
 .description-slmethod .container #filler {
@@ -545,7 +589,7 @@ a:hover {
 
 #myflow0 {
 	display: block;
-	width: 60%;
+	width: 70%;
 	margin-top: 100px;
 	margin-bottom: 30px;
 	margin-left: auto;
@@ -560,16 +604,22 @@ a:hover {
 	margin-top: 30px;
 }
 
+.description-myflow .container .col-md-9 {
+	float: none;
+	margin: auto;
+}
+
 .description-myflow .container h2 {
 	font-family: "Montserrat", sans-serif;
-	font-size: 24px;
-	text-align: right;
-	letter-spacing: 0.03em
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	margin-bottom: 30px;
 }
 
 .description-myflow .container p {
 	font-family: "Roboto Slab", serif;
-	font-size: 18px;
+	font-size: 14px;
 	margin-left: 50px;
 	margin-top: 23px;
 	line-height: 170%;
@@ -586,6 +636,7 @@ a:hover {
 	width: 60%;
 	margin: auto;
 	margin-top: 30px;
+	border: 2px solid #E2E2E2;
 }
 
 .description-myflow .container #myflow2 {
@@ -613,13 +664,13 @@ a:hover {
 .description-myflow .container #peep {
 	display: inline-block;
 	width: 40%;
-	margin-top: 30px;
+	margin-top: -70px;
 }
 
 .description-myflow .container #myflow6 {
 	display: inline-block;
 	width: 40%;
-	margin-top: 30px;
+	margin-top: -70px;
 }
 
 .description-myflow .container #images {
@@ -648,7 +699,7 @@ a:hover {
 
 #enabled0 {
 	display: block;
-	width: 60%;
+	width: 70%;
 	margin-top: 100px;
 	margin-bottom: 30px;
 	margin-left: auto;
@@ -663,16 +714,22 @@ a:hover {
 	margin-top: 30px;
 }
 
+.description-enabled .container .col-md-9 {
+	float: none;
+	margin: auto;
+}
+
 .description-enabled .container h2 {
 	font-family: "Montserrat", sans-serif;
-	font-size: 24px;
-	text-align: right;
-	letter-spacing: 0.03em
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	margin-bottom: 30px;
 }
 
 .description-enabled .container p {
 	font-family: "Roboto Slab", serif;
-	font-size: 18px;
+	font-size: 14px;
 	margin-left: 50px;
 	margin-top: 23px;
 	line-height: 170%;
@@ -740,16 +797,22 @@ a:hover {
 	margin-top: 30px;
 }
 
+.description-caltaiko .container .col-md-9 {
+	float: none;
+	margin: auto;
+}
+
 .description-caltaiko .container h2 {
 	font-family: "Montserrat", sans-serif;
-	font-size: 24px;
-	text-align: right;
-	letter-spacing: 0.03em
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	margin-bottom: 30px;
 }
 
 .description-caltaiko .container p {
 	font-family: "Roboto Slab", serif;
-	font-size: 18px;
+	font-size: 14px;
 	margin-left: 50px;
 	margin-top: 23px;
 	line-height: 170%;
@@ -840,18 +903,26 @@ a:hover {
 	margin-bottom: 50px;
 }
 
+.profile .col-md-9 {
+	float: none;
+	margin: auto;
+}
+
 .profile img {
+	display: block;
+	margin: auto;
 	margin-top: 100px;
-	width: 550px;
+	width: 65%;
+	margin-bottom: 50px;
 }
 
 .profile #description h1 {
-	margin-top: 130px;
-	margin-left: 30px;
+	margin-top: 50px;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 700;
 	letter-spacing: 0.02em;
-	font-size: 36px;
+	font-size: 24px;
+	text-align: center;
 }
 
 .profile #description p {
@@ -859,7 +930,7 @@ a:hover {
 	margin-left: 30px;
 	font-family: "Roboto Slab", serif;
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 180%;
 }
 
