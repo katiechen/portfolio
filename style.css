@@ -844,16 +844,16 @@ a:hover {
 	margin-top: 30px;
 }
 
-.description-caltaiko .container #last {
-	margin-bottom: 30px;
-}
-
 .description-caltaiko .container #images {
 	text-align: center;
 }
 
 .description-caltaiko .container #filler {
 	height: 50px;
+}
+
+.description-caltaiko .container #border {
+	border: 2px solid #E2E2E2;
 }
 
 /*--------------Sketchbook---------------*/
