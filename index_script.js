@@ -26,7 +26,7 @@ $(document).ready(function() {
         }
 
         else {
-            var containerTween = new TweenMax.to(".nav-bar .container", 1.5, {height: '65px'});
+            var containerTween = new TweenMax.to(".nav-bar .container", 1.5, {height: '50px'});
         }
 
         var containerScene = new ScrollMagic.Scene({offset: 30, duration: 300})
@@ -38,7 +38,7 @@ $(document).ready(function() {
         .setTween(menuTween)
         .addTo(controller);
 
-        var nameTween = new TweenMax.to("#name", 1.5, {fontSize: "2.2vw"});
+        var nameTween = new TweenMax.to("#name", 1.5, {fontSize: "20px"});
         var nameScene = new ScrollMagic.Scene({offset: 30, duration: 300})
         .setTween(nameTween)
         .addTo(controller);
