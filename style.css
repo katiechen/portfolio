@@ -676,8 +676,10 @@ a:hover {
 
 .description-myflow .container #myflow6 {
 	display: inline-block;
-	width: 40%;
-	margin-top: -70px;
+	width: 30%;
+	margin-top: 0px;
+	border: 1px solid #E2E2E2;
+	margin-right: 20px;
 }
 
 .description-myflow .container #images {
